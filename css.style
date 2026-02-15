@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aya's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<style>
-
+*
     {
     margin: 0;
     padding: 0;
@@ -150,80 +141,6 @@ section a:hover {
     padding: 5px;
     margin-top: 70px;
     }
-</style>
-<header>
-    <h1>Aya El Mizari</h1>
-    <p>App Developer</p>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-    <a href="#connect">Connect With Me</a>
-</nav>
-
-<main>
-    <section id="about">
-        <h3>About Me:</h3>
-
-        <p>
-            Hello, I am Aya El Mizari.<br>
-            I am a graduate student at (AOU) <em>Arab Open University</em> majoring in Networking & Security, Computer Studies.<br>
-            Looking forwards for training courses that develops my skills and help me in my graduation project.
-            
-        </p>
-    </section>
-    <section id="skills">
-        <h3>My Skills:</h3>
-        <ul>
-            <h4><strong>Technical skills:</strong></h4>
-            <li>Network Troubleshooting.</li>
-            <li>Cisco Packet Tracer.</li>
-            <li>Microsoft Office.</li>
-            <li>Basic Graphic Design Tools.</li>
-
-            <h4><strong>Soft Skills:</strong></h4>
-
-            <li>Communication Skills.</li>
-            <li>Customer Service.</li>
-            
-            <h4><strong>Languages:</strong></h4>
-
-            <li>Arabic: Native.</li>
-            <li>English: Professionally Fluent.</li>
-            <li>Turkish: Conversational.</li>
 
 
-        </ul>      
-
-    </section>
-    <section id="contact">
-        
-        <h3>Contact Me:</h3>
-         <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea><br>
-
-                <button type="submit">Send Message</button><br>
-            </form>
-    </section>
-
-    <section id="connect">
-
-        <h3>Connect With Me on:</h3>
-        <a href="https://www.linkedin.com/in/aya-el-mizari-035250384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-            LinkedIn
-        </a>
-    </section>
-</main>
-
-<footer>
-    <p>All rights reserved. © 2026 Aya El Mizari.</p>
 </footer>
