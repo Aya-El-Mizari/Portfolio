@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7;
+    color: #333;
+}
+    header{
+        background: linear-gradient(135deg, #667eea 10%, #75b69b 90%);
+        color: rgb(243, 241, 235);
+        text-align: center;
+        padding: 70px 20px;
+    }
+
+        header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+    header p {
+    font-size: 15px;
+}
+
+    nav {
+    background-color:#b6d4c8;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+    nav a {
+    color: rgb(234, 250, 244);
+    text-decoration: none;
+    padding: 20px 30px;
+    margin: 0 20px;
+    border-radius: 50px;
+    transition: background-color 0.9s;
+}
+
+    nav a:hover {
+    background: linear-gradient(135deg, #667eea 20%, #75b69b 80%);
+}
+
+    main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+    section {
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: rgb(234, 250, 244);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}    
+
+ section h3 {
+    color: #667eea;
+    margin-bottom: 25px;
+    font-size: 35px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+    section p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+    section ul {
+    list-style: none;
+}
+
+    section li {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-left: 3px solid #667eea;
+    border-radius: 50px;
+}
+
+    form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+    form input,
+    form textarea {
+    padding: 10px;
+    border: 1.5px solid #667eea;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+    form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+    form button:hover {
+    background-color: #ccd1e4;
+}
+
+section a {
+    margin-top: 1px;
+    padding: 18px 440px;
+    background-color: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section a:hover {
+    background-color: #ccd1e4;
+}
+
+     footer {
+    background-color: #b6d4c8;
+    color: rgb(234, 250, 244);
+    text-align: center;
+    padding: 5px;
+    margin-top: 70px;
+    }
+</style>
+<header>
+    <h1>Aya El Mizari</h1>
+    <p>App Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#connect">Connect With Me</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h3>About Me:</h3>
+
+        <p>
+            Hello, I am Aya El Mizari.<br>
+            I am a graduate student at (AOU) <em>Arab Open University</em> majoring in Networking & Security, Computer Studies.<br>
+            Looking forwards for training courses that develops my skills and help me in my graduation project.
+            
+        </p>
+    </section>
+    <section id="skills">
+        <h3>My Skills:</h3>
+        <ul>
+            <h4><strong>Technical skills:</strong></h4>
+            <li>Network Troubleshooting.</li>
+            <li>Cisco Packet Tracer.</li>
+            <li>Microsoft Office.</li>
+            <li>Basic Graphic Design Tools.</li>
+
+            <h4><strong>Soft Skills:</strong></h4>
+
+            <li>Communication Skills.</li>
+            <li>Customer Service.</li>
+            
+            <h4><strong>Languages:</strong></h4>
+
+            <li>Arabic: Native.</li>
+            <li>English: Professionally Fluent.</li>
+            <li>Turkish: Conversational.</li>
+
+
+        </ul>      
+
+    </section>
+    <section id="contact">
+        
+        <h3>Contact Me:</h3>
+         <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                <button type="submit">Send Message</button><br>
+            </form>
+    </section>
+
+    <section id="connect">
+
+        <h3>Connect With Me on:</h3>
+        <a href="https://www.linkedin.com/in/aya-el-mizari-035250384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+            LinkedIn
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>All rights reserved. © 2026 Aya El Mizari.</p>
+</footer>
